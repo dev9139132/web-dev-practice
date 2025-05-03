@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Full viewport height to center vertically */
+}
+
+
+
+.display{
+    
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#submit-btn{
+    cursor: pointer;
+    background-color: chartreuse;
+    padding: 5px;
+}
+
