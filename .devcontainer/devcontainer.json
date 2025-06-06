@@ -1,0 +1,9 @@
+{
+  "name": "PHP + MySQL",
+  "dockerFile": "Dockerfile",
+  "appPort": [80],
+  "postCreateCommand": "sudo service mysql start",
+  "remoteEnv": {
+    "MYSQL_ROOT_PASSWORD": "root"
+  }
+}
