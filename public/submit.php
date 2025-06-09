@@ -17,7 +17,10 @@ $pass = $_POST['password'];
 // Insert into table
 $sql = "INSERT INTO users (name, password) VALUES ('$user', '$pass')";
 if ($conn->query($sql) === TRUE) {
-  echo "Login info saved!";
+  echo "Login info saved!<br><br>";
+
+	echo "<a href='https://localhost/test.php'>User's List</a>";
+
 } else {
   echo "Error: " . $conn->error;
 }
